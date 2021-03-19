@@ -7,4 +7,4 @@ const StylePokeInfo = styled.div`
     border-radius: 8px;
 `
 
-export default StylePokeInfo
+export default StylePokeInfo;

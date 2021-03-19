@@ -9,5 +9,4 @@ const Button = styled.div`
     background-color: #8d99ae;
 `
 
-
-export default Button
+export default Button;

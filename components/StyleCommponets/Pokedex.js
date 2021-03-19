@@ -10,4 +10,4 @@ const StylePokedex = styled.section`
     border-radius: 10px;
 `
 
-export default StylePokedex
+export default StylePokedex;

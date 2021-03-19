@@ -1,5 +1,5 @@
 
-import Pokemons from '../components/Pokemons'
+import Pokemons from '../components/Pokemons';
 import React from 'react';
 
 const Index = () => {
@@ -7,7 +7,7 @@ const Index = () => {
     <>
       <Pokemons/>
     </>
-  )
-}
+  );
+};
 
-export default Index
+export default Index;

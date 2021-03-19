@@ -1,4 +1,4 @@
-import * as types from '../types'
+import * as types from '../types';
 
 const dataInicial = {
   count: 0,
@@ -6,8 +6,7 @@ const dataInicial = {
   previous: null,
   results: [],
   offset: 0
-
-} 
+};
 
 export default  function pokesReducer(state = dataInicial, action){
   switch(action.type){
@@ -20,7 +19,7 @@ export default  function pokesReducer(state = dataInicial, action){
         case types.GET_DETAILS_POKEMON: 
             return {...state, onePokemon: action.payload}
         default: 
-            return state
-    }
-}
+            return state;
+    };
+};
 

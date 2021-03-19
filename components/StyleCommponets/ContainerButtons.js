@@ -11,4 +11,4 @@ const ContainerButtons = styled.div`
     align-items: center;
 `
 
-export default ContainerButtons
+export default ContainerButtons;
