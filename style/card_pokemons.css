@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f3f4;
+    font-family: 'Orbitron', sans-serif;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f3f4;
+    height: 50px;
+    margin: 0;
+    border-radius: 8px;
+}
+
+.buttonsTop { 
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+
+.buttonsTop > div {
+    height: 10px;
+    width: 10px;
+}
+
+.bigButton {
+    height: 45px !important;
+    width: 45px !important;
+    border-radius: 50%;
+    background-color: #0b090a;
+}
+
+.greenButton {
+    border-radius: 50%;
+    background-color: #60d394;
+}
+
+.yellowButton {
+    border-radius: 50%;
+    background-color: #ffd97d;
+}
+
+.redButton {
+    border-radius: 50%;
+    background-color: #a4161a;
+}
+
+.pokeContainer { 
+    height: 230px;
+    width: 380px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.changePokemon { 
+    height: 100px;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .imgPoke{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+
+  .imgPoke > img {
+      width: 200px;
+  }
+
+  .pikachu {
+      width: 75px;
+  }
